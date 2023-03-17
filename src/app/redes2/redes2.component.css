@@ -1,0 +1,31 @@
+/*navbar*/
+i.fa-brands.fa-facebook.fa-2xl:hover{
+    color: rgb(39, 125, 236);
+}
+.fa-brands.fa-linkedin.fa-2xl:hover{
+   color: rgb(39, 125, 236);
+}
+.fa-brands.fa-instagram.fa-2xl:hover{
+   color: rgb(198, 0, 248);
+}
+.fa-solid.fa-user.fa-2xl:hover{
+   color: rgb(255, 102, 0);
+}
+.fa-solid.fa-user-lock.fa-2xl:hover{
+   color: rgb(255, 102, 0);
+}
+.fa-solid.fa-pencil{
+   color: rgb(255, 255, 255);
+}
+i.fa-brands.fa-facebook.fa-2xl,
+i.fa-brands.fa-linkedin.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-solid.fa-user-lock.fa-2xl,
+i.fa-solid.fa-user.fa-2xl
+{
+   color:#fff
+}
+.list-group{
+   --bs-list-group-bg: transparent !important;
+   --bs-list-group-border-width: transparent !important;
+}

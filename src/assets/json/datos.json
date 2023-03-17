@@ -1,0 +1,77 @@
+{
+    "personas": [
+    {
+        "nombre": "Gabriel",
+        "apellido": "Paez",
+        "acerca": "Soy apasionado del desarrollo web, del diseño y automatización de procesos. Soy apto para el trabajo en equipó, siempre intento dar lo mejor de mi en los proyectos y me gusta resolver problemas",
+        "frase": "lorem ipsum"
+    }
+   ],
+   "experiencia":[
+        {
+            "id": 0,
+            "empresa": "Ualá",
+            "tareas": ""
+        },
+        {
+            "id": 1,
+            "empresa": "Shopify",
+            "tareas": ""
+        },
+        {
+            "id": 2,
+            "empresa": "Tiendanube",
+            "tareas": ""
+        }
+   ],
+    "educacion": [
+        {
+            "id": 0,
+            "inicio": "Marzo 2022",
+            "fin": "Septiembre 2022",
+            "nivel": "Se Programar",
+            "img": "assets/img/diploma.jpg"
+        },
+        {
+            "id": 1,
+            "inicio": "Septiembre 2022",
+            "fin": "Mayo 2023",
+            "nivel": "Yo Programo",
+            "img": ""
+        }
+    ],
+    "habs": [
+        {
+            "id": 0,
+            "habilidad": "HTML",
+            "porcentaje": "90",
+            "color": "bg-info"
+        },
+        {
+            "id": 1,
+            "habilidad": "CSS",
+            "porcentaje": "75",
+            "color": "bg-success"
+        },
+        {
+            "id": 2,
+            "habilidad": "JAVA",
+            "porcentaje": "60",
+            "color": "bg-danger"
+        },
+        {
+            "id": 3,
+            "habilidad": "BOOSTRAP",
+            "porcentaje": "90",
+            "color": "bg-info"
+        }
+    ],
+    "proyectos":[
+        {
+            "id": 0,
+            "fecha": "",
+            "descripcion": ""
+        }
+    ]
+
+}

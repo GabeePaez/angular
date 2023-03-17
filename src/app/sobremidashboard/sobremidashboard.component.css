@@ -1,0 +1,8 @@
+section.about{
+    margin-top: 0rem;
+    background-image: url(/assets/img/wall.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    color: #fff
+}
