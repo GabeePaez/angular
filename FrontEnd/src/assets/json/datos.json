@@ -4,24 +4,24 @@
         "nombre": "Gabriel",
         "apellido": "Paez",
         "acerca": "Soy apasionado del desarrollo web, del diseño y automatización de procesos. Soy apto para el trabajo en equipó, siempre intento dar lo mejor de mi en los proyectos y me gusta resolver problemas",
-        "frase": "lorem ipsum"
+        "frase": "Me gusta resolver problemas"
     }
    ],
    "experiencia":[
         {
             "id": 0,
-            "empresa": "Ualá",
-            "tareas": ""
+            "empresa": "Uala",
+            "tareas": "Att al cliente"
         },
         {
             "id": 1,
             "empresa": "Shopify",
-            "tareas": ""
+            "tareas": "Diseño y creación de webs ecommerce"
         },
         {
             "id": 2,
             "empresa": "Tiendanube",
-            "tareas": ""
+            "tareas": "Implementación de CSS para maquetado en página"
         }
    ],
     "educacion": [
@@ -29,7 +29,7 @@
             "id": 0,
             "inicio": "Marzo 2022",
             "fin": "Septiembre 2022",
-            "nivel": "Se Programar",
+            "nivel": "#SeProgramar, Programación Informática General",
             "img": "assets/img/diploma.jpg"
         },
         {
@@ -69,8 +69,8 @@
     "proyectos":[
         {
             "id": 0,
-            "fecha": "",
-            "descripcion": ""
+            "nombre": "Creación de login",
+            "descripcion": "Se realizó la creación de un botón de login que redirige a una página u otra, con ayuda de HTML, CSS y Bootstrap"
         }
     ]
 

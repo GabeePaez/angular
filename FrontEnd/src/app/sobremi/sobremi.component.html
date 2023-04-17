@@ -7,13 +7,14 @@
         <div class="col-3">
           <img src="assets/img/yo (1)_cleanup.png" class="rounded-circle w-75" alt="..." title="...">
         </div>
-        <div class="col-6 mt-4">
-          <h4>{{nombre}} {{apellido}}</h4>
+        <div class="col-6 mt-4" *ngFor="let personas of personas">
+  <h4>{{personas.nombre}} {{personas.apellido}} </h4>
+          <h4></h4>
           <p></p>
           <h4><b>Full Stack Developer Jr.</b></h4>
           <p></p>
-          <h5>{{acerca}}
-          </h5>
+          <h5>{{personas.acerca}}</h5>
+          <h5>{{personas.frase}}</h5>
         </div>
         <div class="col-3"></div>
       </div>
