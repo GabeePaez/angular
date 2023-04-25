@@ -69,9 +69,12 @@ import { ProyectostextoComponent } from './modales/proyectostexto/proyectostexto
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [
+
+  ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

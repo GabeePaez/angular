@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PortfolioService } from '../servicios/portfolio.service';
+import { persona } from '../model/persona.model';
+import { PersonaService } from '../service/persona.service';
 
 @Component({
   selector: 'app-sobremi',
@@ -7,18 +8,12 @@ import { PortfolioService } from '../servicios/portfolio.service';
   styleUrls: ['./sobremi.component.css']
 })
 export class SobremiComponent implements OnInit {
-  personas: any=[];
-  
-   
-   constructor(private portfolioService: PortfolioService) { }
+  persona: persona = new persona("","","","");
+
+   constructor(public personaService: PersonaService) { }
   
    ngOnInit(): void {
-    //Esto es almacenar en la variable de instancia los datos recuperados por el servicio
-    this.portfolioService.getDatos().subscribe(portfolio => {
-      //console.log(portfolio);
-      //Definir información a mostrar
-      this.personas=portfolio.personas;
-    });
-    
+    this.personaService.getPersona().subscribe(data => {this.persona = data})
    }
+    
   }
