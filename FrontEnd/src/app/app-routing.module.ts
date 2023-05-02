@@ -5,13 +5,15 @@ import { IntroComponent } from './intro/intro.component';
 import { LoginComponent } from './login/login.component';
 import { NewExperienciaComponent } from './experiencia/new-experiencia.component';
 import { EditExperienciaComponent } from './experiencia/edit-experiencia.component';
+import { NeweducacionComponent } from './estudios/neweducacion.component';
 
 const routes: Routes = [
 {path: '', component:IntroComponent},
 {path: 'login', component:LoginComponent},
 {path: 'nuevaexp', component: NewExperienciaComponent},
 {path: 'editexp/:id', component: EditExperienciaComponent},
-{path: 'dashboard', component:DashboardComponent}
+{path: 'nuevaedu', component: NeweducacionComponent},
+{path: 'dashboard', component: DashboardComponent}
 ];
 
 
