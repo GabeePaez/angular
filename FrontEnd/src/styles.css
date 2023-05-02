@@ -21,9 +21,12 @@ section.dashboard, section.panel{
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: linear-gradient(135deg,#00B7D4, #505488, #2fef80, #161569, #5a4894, #a950a1, #ff7cae);
-    background-size: 500%;
-    animation: fanimado 20s infinite;
+    margin-top: 0rem;
+    background-image: url(/assets/img/wall.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: round;
+    color: #fff
 }
 .texto{
     color: white;

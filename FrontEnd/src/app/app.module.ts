@@ -13,18 +13,9 @@ import { HabsComponent } from './habs/habs.component';
 import { EstudiosComponent } from './estudios/estudios.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { IntroComponent } from './intro/intro.component';
-import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
 import { Redes2Component } from './redes2/redes2.component';
-import { AboutmedashboardComponent } from './aboutmedashboard/aboutmedashboard.component';
-import { BannerdashboardComponent } from './bannerdashboard/bannerdashboard.component';
 import { PerfilComponent } from './perfil/perfil.component';
-import { SobremidashboardComponent } from './sobremidashboard/sobremidashboard.component';
-import { EstudiosdashboardComponent } from './estudiosdashboard/estudiosdashboard.component';
-import { ExperienciadashboardComponent } from './experienciadashboard/experienciadashboard.component';
-import { ProjectosdashboardComponent } from './projectosdashboard/projectosdashboard.component';
-import { HabsdashboardComponent } from './habsdashboard/habsdashboard.component';
 import { FotosbannerComponent } from './fotosbanner/fotosbanner.component';
 import { SobremitextoComponent } from './modales/sobremitexto/sobremitexto.component';
 import { EstudiostextoComponent } from './modales/estudiostexto/estudiostexto.component';
@@ -37,6 +28,7 @@ import { NewExperienciaComponent } from './experiencia/new-experiencia.component
 import { interceptorProvider } from './service/interceptor-service';
 import { EditExperienciaComponent } from './experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './estudios/neweducacion.component';
+import { EditeducacionComponent } from './estudios/editeducacion.component';
 
 @NgModule({
   declarations: [
@@ -49,18 +41,9 @@ import { NeweducacionComponent } from './estudios/neweducacion.component';
     EstudiosComponent,
     ExperienciaComponent,
     ProyectosComponent,
-    DashboardComponent,
     IntroComponent,
-    NavbardashboardComponent,
     Redes2Component,
-    AboutmedashboardComponent,
-    BannerdashboardComponent,
     PerfilComponent,
-    SobremidashboardComponent,
-    EstudiosdashboardComponent,
-    ExperienciadashboardComponent,
-    ProjectosdashboardComponent,
-    HabsdashboardComponent,
     FotosbannerComponent,
     SobremitextoComponent,
     EstudiostextoComponent,
@@ -71,6 +54,7 @@ import { NeweducacionComponent } from './estudios/neweducacion.component';
     NewExperienciaComponent,
     EditExperienciaComponent,
     NeweducacionComponent,
+    EditeducacionComponent,
   ],
   imports: [
     BrowserModule,
