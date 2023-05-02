@@ -6,6 +6,7 @@
       </a>
       <div class="list-group">
         <app-redes></app-redes>
+        <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Iniciar Sesión</button>
+        <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesión</button>
         </div>
     </div>
-        <app-login></app-login>

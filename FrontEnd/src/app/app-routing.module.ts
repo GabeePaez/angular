@@ -1,13 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { ErrorComponent } from './error/error.component';
 import { IntroComponent } from './intro/intro.component';
+import { LoginComponent } from './login/login.component';
+import { NewExperienciaComponent } from './experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './experiencia/edit-experiencia.component';
 
 const routes: Routes = [
 {path: '', component:IntroComponent},
-{path: 'dashboard', component:DashboardComponent},
-{path:'**', component:ErrorComponent}
+{path: 'login', component:LoginComponent},
+{path: 'nuevaexp', component: NewExperienciaComponent},
+{path: 'editexp/:id', component: EditExperienciaComponent},
+{path: 'dashboard', component:DashboardComponent}
 ];
 
 

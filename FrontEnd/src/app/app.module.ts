@@ -6,7 +6,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { LoginComponent } from './modals/login/login.component';
 import { RedesComponent } from './redes/redes.component';
 import { BannerComponent } from './banner/banner.component';
 import { SobremiComponent } from './sobremi/sobremi.component';
@@ -15,7 +14,6 @@ import { EstudiosComponent } from './estudios/estudios.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { ErrorComponent } from './error/error.component';
 import { IntroComponent } from './intro/intro.component';
 import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
 import { Redes2Component } from './redes2/redes2.component';
@@ -33,12 +31,16 @@ import { EstudiostextoComponent } from './modales/estudiostexto/estudiostexto.co
 import { ExperienciatextoComponent } from './modales/experienciatexto/experienciatexto.component';
 import { HabstextoComponent } from './modales/habstexto/habstexto.component';
 import { ProyectostextoComponent } from './modales/proyectostexto/proyectostexto.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
+import { NewExperienciaComponent } from './experiencia/new-experiencia.component';
+import { interceptorProvider } from './service/interceptor-service';
+import { EditExperienciaComponent } from './experiencia/edit-experiencia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    LoginComponent,
     RedesComponent,
     BannerComponent,
     SobremiComponent,
@@ -47,7 +49,6 @@ import { ProyectostextoComponent } from './modales/proyectostexto/proyectostexto
     ExperienciaComponent,
     ProyectosComponent,
     DashboardComponent,
-    ErrorComponent,
     IntroComponent,
     NavbardashboardComponent,
     Redes2Component,
@@ -65,14 +66,18 @@ import { ProyectostextoComponent } from './modales/proyectostexto/proyectostexto
     ExperienciatextoComponent,
     HabstextoComponent,
     ProyectostextoComponent,
+    LoginComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [
-
+  interceptorProvider
   ],
 
   bootstrap: [AppComponent]
