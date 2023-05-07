@@ -5,7 +5,11 @@
       
       <div class="row">
         <div class="col-3">
-          <img src="assets/img/yo (1)_cleanup.png" class="rounded-circle w-75" alt="..." title="...">
+            <button type="button" class="btn btn-dark" routerLink="/editacercade/1" *ngIf="isLogged">
+              Editar Perfil
+            </button>
+
+          <img src={{persona.img}} class="rounded-circle w-75" alt="..." title="...">
         </div>
         <div class="col-6 mt-4">
   <h4>{{persona.nombre}} {{persona.apellido}} </h4>
@@ -13,7 +17,7 @@
           <p></p>
           <h4><b>Full Stack Developer Jr</b></h4>
           <p></p>
-          <h5>{{persona.acerca}}</h5>
+          <h5>{{persona.descripcion}}</h5>
         </div>
         <div class="col-3"></div>
       </div>

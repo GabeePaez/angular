@@ -27,6 +27,7 @@ body{
     background-size: cover;
     background-repeat: round;
     color: #fff
+    
 }
 .texto{
     color: white;
@@ -34,14 +35,8 @@ body{
     margin: 300px 0;
     font-size: 28px;
 }
-@keyframes fanimado{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }

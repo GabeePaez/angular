@@ -15,13 +15,7 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { IntroComponent } from './intro/intro.component';
 import { Redes2Component } from './redes2/redes2.component';
-import { PerfilComponent } from './perfil/perfil.component';
 import { FotosbannerComponent } from './fotosbanner/fotosbanner.component';
-import { SobremitextoComponent } from './modales/sobremitexto/sobremitexto.component';
-import { EstudiostextoComponent } from './modales/estudiostexto/estudiostexto.component';
-import { ExperienciatextoComponent } from './modales/experienciatexto/experienciatexto.component';
-import { HabstextoComponent } from './modales/habstexto/habstexto.component';
-import { ProyectostextoComponent } from './modales/proyectostexto/proyectostexto.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { NewExperienciaComponent } from './experiencia/new-experiencia.component';
@@ -29,6 +23,14 @@ import { interceptorProvider } from './service/interceptor-service';
 import { EditExperienciaComponent } from './experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './estudios/neweducacion.component';
 import { EditeducacionComponent } from './estudios/editeducacion.component';
+import { EditSkillComponent } from './habs/edit-skill.component';
+import { NewSkillComponent } from './habs/new-skill.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EditAcercaDeComponent } from './sobremi/edit-acerca-de.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 @NgModule({
   declarations: [
@@ -43,24 +45,25 @@ import { EditeducacionComponent } from './estudios/editeducacion.component';
     ProyectosComponent,
     IntroComponent,
     Redes2Component,
-    PerfilComponent,
     FotosbannerComponent,
-    SobremitextoComponent,
-    EstudiostextoComponent,
-    ExperienciatextoComponent,
-    HabstextoComponent,
-    ProyectostextoComponent,
     LoginComponent,
     NewExperienciaComponent,
     EditExperienciaComponent,
     NeweducacionComponent,
     EditeducacionComponent,
+    EditSkillComponent,
+    NewSkillComponent,
+    EditAcercaDeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgCircleProgressModule.forRoot({}),
+    BrowserAnimationsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage())
   ],
   providers: [
   interceptorProvider
