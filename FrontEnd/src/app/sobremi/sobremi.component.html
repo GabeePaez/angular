@@ -8,18 +8,23 @@
             <button type="button" class="btn btn-dark" routerLink="/editacercade/1" *ngIf="isLogged">
               Editar Perfil
             </button>
+            <br><br>
 
           <img src={{persona.img}} class="rounded-circle w-75" alt="..." title="...">
         </div>
+        
         <div class="col-6 mt-4">
   <h4>{{persona.nombre}} {{persona.apellido}} </h4>
+  
           <h4></h4>
           <p></p>
           <h4><b>Full Stack Developer Jr</b></h4>
           <p></p>
           <h5>{{persona.descripcion}}</h5>
+          
         </div>
         <div class="col-3"></div>
+        
       </div>
     </div>
    
