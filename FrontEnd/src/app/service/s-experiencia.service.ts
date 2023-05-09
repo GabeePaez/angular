@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'https://frontend-2b9dd.web.app/explab/';
+  expURL = 'https://gabee-ap.onrender.com/explab/';
 
   constructor(private httpClient: HttpClient) { }
 

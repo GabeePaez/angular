@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL = 'https://frontend-2b9dd.web.app/educacion/';
+  URL = 'https://gabee-ap.onrender.com/educacion/';
 
   constructor(private httpClient: HttpClient) { }
 

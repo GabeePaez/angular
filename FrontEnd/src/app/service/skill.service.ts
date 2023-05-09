@@ -7,7 +7,7 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  URL = 'https://frontend-2b9dd.web.app/skill/';
+  URL = 'https://gabee-ap.onrender.com/skill/';
   
   constructor(private httpClient: HttpClient) { }
 

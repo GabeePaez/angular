@@ -8,7 +8,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'https://frontend-2b9dd.web.app/personas/';
+  URL = 'https://gabee-ap.onrender.com/personas/';
 
   constructor(private httpClient: HttpClient) { }
 

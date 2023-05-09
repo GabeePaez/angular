@@ -9,7 +9,7 @@ import { JwtDto } from '../model/jwt-dto';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://frontend-2b9dd.web.app/auth/';
+  authURL = 'https://gabee-ap.onrender.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
